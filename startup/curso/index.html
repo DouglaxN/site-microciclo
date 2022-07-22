@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Inscrição Curso de Introdução à Biorremediação</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">Inscrição Curso de Introdução à Biorremediação</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST" action="inscrever.php">
+                        <div class="form-row m-b-55">
+
+                            <div class="value">
+                        
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" required placeholder="Insira seu nome" type="text"
+                                                name="nome">
+                                            <label class="label--desc">Nome Completo<span class="obrigatorio">*</span></label>
+                                        </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" required placeholder="000.000.000-00" type="text"
+                                                name="cpf" id="cpf_">
+                                            <label class="label--desc">CPF<span class="obrigatorio">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" id="nasc_" required placeholder="00/00/0000"
+                                                name="nascimento">
+                                            <label class="label--desc">Data de Nascimento<span
+                                                    class="obrigatorio">*</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" placeholder="Insira seu email" required type="mail" name="email">
+                                    <label class="label--desc">Email<span class="obrigatorio">*</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" placeholder="Confirme seu email" required type="mail" name="emailc">
+                                    <label class="label--desc">Confirmação do Email<span class="obrigatorio">*</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" required placeholder="(00) 00000-0000"
+                                                maxlength="11" type="text" name="cel" id="cel_">
+                                            <label class="label--desc">Celular<span class="obrigatorio">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" required placeholder="00.000-000"
+                                                maxlength="10" type="text" name="cep" id="cep_">
+                                            <label class="label--desc">CEP<span class="obrigatorio">*</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" required placeholder="Insira seu endereço"
+                                                type="text" name="rua" id="ruaa">
+                                            <label class="label--desc">Endereço<span
+                                                    class="obrigatorio">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" id="bairroo" type="text" required placeholder="Insira seu bairro"
+                                                name="bairro">
+                                            <label class="label--desc">Bairro<span class="obrigatorio">*</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" required placeholder="Insira sua cidade"
+                                                type="text" name="cidade" id="cidadee">
+                                            <label class="label--desc">Cidade<span class="obrigatorio">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text"
+                                                placeholder="Insira seu Estado" id="estadoo" required name="uf">
+                                            <label class="label--desc">Estado<span class="obrigatorio">*</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" required placeholder="Insira seu curso/formação" type="text"
+                                        name="formacao">
+                                    <label class="label--desc">Curso de graduação/formação<span
+                                            class="obrigatorio">*</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="input-group">
+                                        <div class="rs-select2 js-select-simple select--no-search">
+                                            <select name="titulo" required>
+                                                <option value="Nao selecionou">Selecione uma opção</option>
+                                                <option value="Cursando O Ensino Fundamental II">Cursando O Ensino Fundamental II</option>
+                                                <option value="Cursando o Ensino Médio">Cursando o Ensino Médio</option>
+                                                <option value="Ensino Médio completo ou Técnico">Ensino Médio completo ou Técnico</option>
+                                                <option value="Estudante de Graduação">Estudante de Graduação</option>
+                                                <option value="Graduado">Graduado</option>
+                                                <option value="Estudante de Especialização">Estudante de Especialização</option>
+                                                <option value="Especialista">Especialista</option>
+                                                <option value="Estudante de Mestrado">Estudante de Mestrado</option>
+                                                <option value="Mestre">Mestre</option>
+                                                <option value="Estudante de Doutorado">Estudante de Doutorado</option>
+                                                <option value="Doutor">Doutor</option>
+                                            </select>
+                                            <div class="select-dropdown"></div>
+                                        </div>
+                                        <label class="label--desc">Titulação<span class="obrigatorio">*</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="input-group">
+                                        <div class="rs-select2 js-select-simple select--no-search">
+                                            <select name="tipo" required>
+                                                <option value="Nao selecionou">Selecione uma opção</option>
+                                                <option value="Estudante Graduação">Estudante Graduação</option>
+                                                <option value="Estudante Pós-Graduação">Estudante Pós-Graduação</option>
+                                                <option value="Pós-doc">Pós-doc</option>
+                                                <option value="Profissional">Profissional</option>
+                                            </select>
+                                            <div class="select-dropdown"></div>
+                                        </div>
+                                        <label class="label--desc">Tipo Inscrição<span
+                                                class="obrigatorio">*</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row m-b-55">
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" required name="comoSoube"
+                                        placeholder="Como ficou sabendo do curso?">
+                                    <label class="label--desc">Como você ficou sabendo do curso de Introdução à
+                                        Biorremediação?<span class="obrigatorio">*</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn--radius-2 btn--red" type="submit"
+                                onclick="inscrever()">Increver-se</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <script type="text/javascript">
+        $("#cel_").mask("(00) 0 0000-0000");
+        $("#cpf_").mask("000.000.000-00");
+        $("#cep_").mask("00.000-000");
+        $("#nasc_").mask("00/00/0000");
+        
+
+    </script>
+    
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <script src="js/global.js"></script>
+
+</body>
+
+</html>
