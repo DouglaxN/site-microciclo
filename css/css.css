@@ -21,6 +21,17 @@ body {
     color: #ffffff;
 }
 
+nav ul ul {
+    background-color: #000000;
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
 #header-banner {
     background-color: #fff;
     margin-bottom: 20px;
