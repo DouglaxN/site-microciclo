@@ -51,7 +51,6 @@ nav ul li:hover>ul {
 /* #idioma a {} */
 
 #team {
-    background-image: url('../img/sb-.png');
     background-repeat: inherit;
     background-size: 4%;
     background-color: #ffffff;
@@ -125,16 +124,18 @@ nav ul li:hover>ul {
 }
 
 #produtos {
-    background-image: url('../img/bg-c.jpg');
+    background-image: url('../img/bg-b.jpg');
     opacity: 0.9;
     background-size: 100%;
     background-repeat: no-repeat;
     box-shadow: 15px 0px 15px rgba(66, 44, 44, 0.6);
     padding-bottom: 30px;
+    color: white;
 }
 
 #produtos .title-white {
     margin-top: 50px;
+    color: white;
 }
 
 #produtos .text-text {
@@ -151,7 +152,7 @@ nav ul li:hover>ul {
 }
 
 #blog {
-    background-image: url('../img/bg-b.jpg');
+    background-image: url('../img/bg-e.jpg');
     background-size: 100%;
     padding-bottom: 40px;
 }
@@ -162,6 +163,20 @@ nav ul li:hover>ul {
 
 #blog .nav-link {
     color: #ffffff;
+}
+
+.cards-blog {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 3rem;
+}
+
+.cards-blog p {
+    text-align: justify;
+}
+
+.cards {
+    margin-bottom: 2rem;
 }
 
 .title {
